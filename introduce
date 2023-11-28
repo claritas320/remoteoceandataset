@@ -1,1 +1,21 @@
 %% Hello, I'm starting to have this dataset built and I'd like to record my learning and building process.
+------------------------------------------11.28---------------------------------------------------------------------------
+using 1.https://mbd.baidu.com/ug_share/mbox/4a83aa9e65/share?product=smartapp&tk=5b524d2f779fd51930ca8422b34fca6a&share_url=https%3A%2F%2Fyebd1h.smartapps.cn%2Fpages%2Fblog%2Findex%3FblogId%3D134068456%26_swebfr%3D1%26_swebFromHost%3Dbaiduboxapp&domain=mbd.baidu.com
+2.https://www.bilibili.com/read/cv21776088/
+and 《海洋水文环境要素分析方法》科学出版社 to create a grid for my remote sensing oceanography dataset.
+
+and I want to learn the GridBuilder software from this website:https://austides.com/downloads/. 
+Today I want to finish the reading of the tutorial pdf of GridBuilder software(https://austides.com/wp-content/uploads/GridBuilder-v0.99.pdf) while using the software step by step. and this Friday I can teach others to do this.
+one question: while installing the GridBuilder software, why does it ask me to install a Matlab runtime part, should I put this into the same folder with my own Matlab software? IDK, I just installed it to the C disk, not my own MATLAB folder. (OK I asked ChatGPT and it told me to separate in case of a Matlab version conflict. I was right!)
+
+question: "Hint: Metrics highlighted in red indicate that they are outside the usually accepted range of values for a stable grid." how can I deal with this issue? how can I get a stable grid?
+ChatGPT said maybe need to adjust the resolution or something but I still don't know the meaning of Grid Metrics and I will continue reading.
+
+Q: why can't import my own data to GridBuilder software to create my own grid?
+
+give up on the GridBuilder and transfer to Matlab again. (imports of GridBuilder need fully structured)
+
+try matlab中读取经纬度txt生成kml文件, to generate a ROI file to download remote sensing images from sentinel website.
+
+【！！！】done with the ROI, is the area.kml, upload this ROI file to https://dataspace.copernicus.eu/browser/?zoom=6&lat=20.69446&lng=156.76392&themeId=DEFAULT-THEME&visualizationUrl=https%3A%2F%2Fsh.dataspace.copernicus.eu%2Fogc%2Fwms%2Fa91f72b5-f393-4320-bc0f-990129bd9e63&datasetId=S2_L2A_CDAS
+and download all the covering satellite images tomorrow.
