@@ -38,5 +38,12 @@ Sen2Res:一种将Sentine-2产品的空间分辨率提高到10m/像素的处理�
 SNAPHU:斯坦福大学开发免费的用于InSAR的相位解缠工具，可集成在SNAP中用于对Sentinel1IW SLC级产品进行InSAR处理的相位解缠)
 (来源：https://blog.csdn.net/lidahuilidahui/article/details/99679554)
 5. open files in SNAP and mosaic
-
+Q can't find ways to put all the pictures together in one window. transfer to Matlab now. 
+6. Matlab read sentinel data
+can't believe I can't find code for dealing with sentinel. so lucky I have original codes with me.
+begin at the very first. go back to the year 2017 with Bishangshang code.
+bishangshang is not working too. I'm not dealing with TIFF files now.
+7. try a SNAP tutorial step by step
+try this one first and hope I can find ways to batch-process those images and get a standard format that I can use in MATLAB.
+(tutorial:https://step.esa.int/docs/tutorials/S1TBX%20Time-series%20analysis%20with%20Sentinel-1.pdf)
 
