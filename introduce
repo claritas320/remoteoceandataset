@@ -15,7 +15,28 @@ Q: why can't import my own data to GridBuilder software to create my own grid?
 
 give up on the GridBuilder and transfer to Matlab again. (imports of GridBuilder need fully structured)
 
-try matlab中读取经纬度txt生成kml文件, to generate a ROI file to download remote sensing images from sentinel website.
+try matlab中读取经纬度txt生成kml文件, to generate an ROI file to download remote sensing images from sentinel website.
 
 【！！！】done with the ROI, is the area.kml, upload this ROI file to https://dataspace.copernicus.eu/browser/?zoom=6&lat=20.69446&lng=156.76392&themeId=DEFAULT-THEME&visualizationUrl=https%3A%2F%2Fsh.dataspace.copernicus.eu%2Fogc%2Fwms%2Fa91f72b5-f393-4320-bc0f-990129bd9e63&datasetId=S2_L2A_CDAS
 and download all the covering satellite images tomorrow.
+------------------------------------------11.29---------------------------------------------------------------------------
+1.download some pieces of sentinel images and search for retrieval methods.
+download 6 L1C several files.11.22-11.24 covering M2.
+2. find out the differences between L1C and L2A
+Level-1C: 经正射校正和亚像元级几何精校正后的大气表观反射率产品。
+Level-2A: 主要包含经过大气校正的大气底层反射率数据
+(来源：https://blog.csdn.net/YW_remote/article/details/119416610)
+3. learn software operation step by step
+(ori--https://blog.csdn.net/Knight_076/article/details/115339050)
+4. download sen2Cor and get 6 L2A files
+（download and manual:https://step.esa.int/main/snap-supported-plugins/sen2cor/sen2cor-v2-11/）
+while download, study the SNAP software
+learn:
+Sen2cor:Sentinel-2 L2A产品生成和格式化处理器:它对L1C级大气输入数据进行大气、地形和卷云校正。Sen2Cor创建底部大气，可选地形和卷云校正反射图像，此外，还会创建气溶胶光学厚度，水汽，场景分类地图和带有质量指标性质的云和雪概率掩膜图像。其输出的产品格式和L1C级用户产品格式相同:JPEG 2000格式图像，三种不同的分辨率，60、20和10 m。。
+Sen2Three:一个Sentienl-2 L3级处理器，用于大气校正Sentinel-2 L2A级图像的时间序列影像合成，Sen2Three以某一地理区域(tiles) L2A级图像的时间序列为输入，通过将之前输入图像的所有“坏”像素逐步替换为随后场景的“好”像素，生成合成输出图像,可以实现Sentinel-2 L2A数据去云处理。
+Sen2Res:一种将Sentine-2产品的空间分辨率提高到10m/像素的处理器，可以保持产品的反射率。Sentinel-2 MSI没有全色波段，但它包含4个10m/pixel波段，Sen2Res的工作原理是建立个模型，描述这些波段之间如何共享信息(即独立于反射率的像素内容)，以及哪些信息是特定于这些波段的(即像素内容的颜色)。然后应用该模型对20m/pixel波段和60m/pixel波段进行解调，同时保持其反射率。
+SNAPHU:斯坦福大学开发免费的用于InSAR的相位解缠工具，可集成在SNAP中用于对Sentinel1IW SLC级产品进行InSAR处理的相位解缠)
+(来源：https://blog.csdn.net/lidahuilidahui/article/details/99679554)
+5. open files in SNAP and mosaic
+
+
