@@ -47,3 +47,15 @@ bishangshang is not working too. I'm not dealing with TIFF files now.
 try this one first and hope I can find ways to batch-process those images and get a standard format that I can use in MATLAB.
 (tutorial:https://step.esa.int/docs/tutorials/S1TBX%20Time-series%20analysis%20with%20Sentinel-1.pdf)
 
+------------------------------------------11.30------------------------------------------------------
+1. try a morning to understand how to use SNAP to batch process data. otherwise need matlab to transfer that.
+haha sentinel2 is high-resolution bands haha.
+sentinel1 is SAR...
+use supermap to open those 6 files and contract area. and doing mosaic. nothing important but fast. I still need to do this in Matlab afterwards.
+
+Here use some codes can let sen2 cor only deal with the 10m file (have https://zhuanlan.zhihu.com/p/75814642)
+OK I use mosaic in supermap to create a whole image with the 6 files.
+now I want to read the matrix to Matlab automatically.
+found a so good python code and decided to use python(https://zhuanlan.zhihu.com/p/597807457?utm_id=0)
+
+
