@@ -58,4 +58,7 @@ OK I use mosaic in supermap to create a whole image with the 6 files.
 now I want to read the matrix to Matlab automatically.
 found a so good python code and decided to use python(https://zhuanlan.zhihu.com/p/597807457?utm_id=0)
 
+【！！！】now the python code require a higher level of openssl, and I need to install a new openssl（download website:https://www.openssl.org/source/）.
+hold it there.
+start to do the PPT of remote sensing.
 
