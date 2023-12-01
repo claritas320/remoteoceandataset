@@ -57,8 +57,14 @@ Here use some codes can let sen2 cor only deal with the 10m file (have https://z
 OK I use mosaic in supermap to create a whole image with the 6 files.
 now I want to read the matrix to Matlab automatically.
 found a so good python code and decided to use python(https://zhuanlan.zhihu.com/p/597807457?utm_id=0)
+------------------------------------------12.01------------------------------------------------------
+sentinel-2 bands combinations(https://gisgeography.com/sentinel-2-bands-combinations/#Sentinel_2_Bands)
 
 【！！！】now the python code require a higher level of openssl, and I need to install a new openssl（download website:https://www.openssl.org/source/）.
 hold it there.
 start to do the PPT of remote sensing.
+sentinel successful cases （https://sentinel.esa.int/web/success-stories/-/copernicus-sentinel-2-benchmark-dataset-for-detection-of-dense-marine-plastic-accumulations）
+try some timepoints to see whether sentinel 2 can see the boat or not.
 
+thank you so much,this one finally helped me install openssl:https://www.cnblogs.com/dingshaohua/p/12271280.html
+【next step】install git for windows. because git has openssl.
