@@ -68,3 +68,12 @@ try some timepoints to see whether sentinel 2 can see the boat or not.
 
 thank you so much,this one finally helped me install openssl:https://www.cnblogs.com/dingshaohua/p/12271280.html
 【next step】install git for windows. because git has openssl.
+------------------------------------------12.04---------------------------------------------------
+install git already, but it seems that I need to install gitpython.
+so hard.
+give up on my pip install. try the conda install and the python.exe in Anaconda folder.
+all well with the conda environment module installing. except for too slow.
+now I almost can finish running the heading of this python file. (those from xx import xx and import xx)
+the whole afternoon listening with the teacher teaching.
+【next step】continue the reading.conda install -c conda-forge fiona and conda install -c conda-forge pyproj
+don't know how to import geospatial
