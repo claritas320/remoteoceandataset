@@ -83,3 +83,4 @@ try install the sentinelSAT again using conda. no, still not working.
 sentinelsat is not available. the api is not working.
 【next step】try some other module https://github.com/kr-stn/awesome-sentinel#data-hubs-and-national-mirrors
 try to search more on STEP forum:https://github.com/claritas320/remoteoceandataset/blob/main/introduce
+try google cloud repository:https://console.cloud.google.com/storage/browser/gcp-public-data-sentinel-2/L2/tiles;tab=objects?pli=1&prefix=&forceOnObjectsSortingFiltering=false&pageState=(%22StorageObjectListTable%22:(%22f%22:%22%255B%255D%22))
