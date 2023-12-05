@@ -77,3 +77,8 @@ now I almost can finish running the heading of this python file. (those from xx 
 the whole afternoon listening with the teacher teaching.
 【next step】continue the reading.conda install -c conda-forge fiona and conda install -c conda-forge pyproj
 don't know how to import geospatial
+------------------------------------------12.05---------------------------------------------------
+try to download a new sentinelSAT. I don't know it will work or not. I just know the current one isn't working.
+try install the sentinelSAT again using conda. no, still not working.
+sentinelsat is not available. the api is not working.
+【next step】try some other module https://github.com/kr-stn/awesome-sentinel#data-hubs-and-national-mirrors
