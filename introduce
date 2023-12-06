@@ -82,5 +82,14 @@ try to download a new sentinelSAT. I don't know it will work or not. I just know
 try install the sentinelSAT again using conda. no, still not working.
 sentinelsat is not available. the api is not working.
 【next step】try some other module https://github.com/kr-stn/awesome-sentinel#data-hubs-and-national-mirrors
-try to search more on STEP forum:https://github.com/claritas320/remoteoceandataset/blob/main/introduce
+try to search more on STEP forum
 try google cloud repository:https://console.cloud.google.com/storage/browser/gcp-public-data-sentinel-2/L2/tiles;tab=objects?pli=1&prefix=&forceOnObjectsSortingFiltering=false&pageState=(%22StorageObjectListTable%22:(%22f%22:%22%255B%255D%22))
+------------------------------------------12.06---------------------------------------------------
+after 12am I will download those files one by one.
+and this afternoon find a paper or some ways to draw the pictures of those images. using new ways to learn paper with popai, chrome extension and paperwithcode.
+on Thursday I need to draw one or two products of those images.
+I just download 1020 1023 1025 1028 1030(not all), and the website went out.
+for today and tomorrow I need to batch process those files and draw some dynamic PPT sildes.
+try use this one to process data(https://blog.csdn.net/lidahuilidahui/article/details/102765420)
+and this one batch process:https://zhuanlan.zhihu.com/p/91716850
+【next step】continue to try SNAP batch process 
