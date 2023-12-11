@@ -105,3 +105,22 @@ I got one mosaic finally! using one and a half hours and it is. mosaic 1020 and 
 【next step】 I need to remove the clouds or just extract the water body.
 and then retrieve the chla and TSMC
 
+---------------------------------------12.11---------------------------------------------------
+mosaic can't be taken with different size
+multi-size mosaic can't change the resolution.
+so I resample the images first and then use mosaic.
+resample can be done with the batch process. so it's simple.
+now I resample all the bands. next may just need 2 3 4 8 and quality_scene_classification and quality_cloud_confidence.
+my resample failed... all the resampled images are none value. let me try band-select first and then resample.
+already done band select and resample. while waiting for the mosaic.
+I found a paper named 应用哨兵2号卫星遥感影像数据和机器学习算法对锡林郭勒草原土壤表层有机碳及全氮的估算。
+It says using GEE to do the image select and other things.
+can I use GEE for free? so that I can solve the problem that my PC storage and operation speed are low.
+done with the mosaic and next step clouds removal.
+now I successfully mosaic 1 picture.
+now I need to use matlab to read the mosaic picture。
+first try to transfer BEAN-DINAP data into nc data so that I can use Matlab to process.
+this teach us how to do the clouds removal using SNAP plugins: https://www.youtube.com/watch?v=G7-YfrLrfjA
+【next step】L1C->S2resample->IDEPIX try this way too. and figure out if using IDEPIX where can I do the atmospheric and geometric correction.
+maybe I found out already. use L1C to generate masks. and L2A images to remove those masks. just check out whether L1C and L2A have the same lat and lon will be enough.
+
