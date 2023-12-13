@@ -129,3 +129,11 @@ download some images and perfect my PPT.
 find sentinelhub that has some codes to do the water quality monitoring.
 GEE：https://code.earthengine.google.com/?project=ee-1043799788
 sentinelhub:https://custom-scripts.sentinel-hub.com/custom-scripts/
+---------------------------------------12.13---------------------------------------------------
+still need nc file to run the Matlab code(water quality)
+I chose 1 file and bandselect 12348 and quality scene classification and quality cloud confidence.
+while I still download files.
+dealing with the code I download, try to make it work and see what I can get.
+10m resolution is still too high for my PC to deal with.
+maybe next step I need to try 60m resolution.
+【next step】still working on the readimg.m code. pay attention to the block read(ncread variables)
