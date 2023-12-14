@@ -137,3 +137,17 @@ dealing with the code I download, try to make it work and see what I can get.
 10m resolution is still too high for my PC to deal with.
 maybe next step I need to try 60m resolution.
 【next step】still working on the readimg.m code. pay attention to the block read(ncread variables)
+---------------------------------------12.14---------------------------------------------------
+still run out of Memory.hrmmm.need to use the 60m resolution.
+can't believe I cannot use matlab to create and write a nc file.
+try many times not working.
+ok i first draw images is fine.
+get the chla result of a single color.hrmmm I try a lake image and see if there's any differences.
+``put sen2cor code here: 
+cd C:\Users\10437\AppData\Local\Sen2Cor-02.11.00-win64
+L2A_Process E:\sentinel2023\nearcoastTEST\S2A_MSIL1C_20231214T024111_N0510_R089_T51SVD_20231214T042600.SAFE
+``python code to batch process s2 images to geotiff:https://blog.csdn.net/KilllerQueen/article/details/114637970
+``matlab code s2 bands calculate NDVI:https://blog.csdn.net/Pyyyson/article/details/130338038?spm=1001.2101.3001.6650.9&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-9-130338038-blog-116410491.235%5Ev39%5Epc_relevant_default_base&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-9-130338038-blog-116410491.235%5Ev39%5Epc_relevant_default_base&utm_relevant_index=10
+``m_map install and use:https://blog.csdn.net/weixin_39509073/article/details/113247019?ops_request_misc=&request_id=&biz_id=102&utm_term=m_map&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-1-113247019.142^v96^pc_search_result_base4&spm=1018.2226.3001.4187
+``matlab write nc:https://blog.csdn.net/weixin_46604505/article/details/108190715
+【next step】hehe near coast images still no data. I need to run good on the near coast test data
