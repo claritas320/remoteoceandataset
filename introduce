@@ -156,6 +156,12 @@ thank you very much near coast test data. all clouds....delete and download a ne
 why 2017 data has the clear view pic while 2023 data is not.
 Han told me to see the chla research parts of the EIS report. good. I have a good direction now.
 It's working...TAT
-this code is right. except the divide 
+this code is right. except the sea-land divide 
 and the sen2cor code lose my B01 channel I will do it again.
 and see the perfect images of the code.
+---------------------------------------12.18---------------------------------------------------
+I do it again but still lose the B01 channel...
+need to use batch process and get chla.
+1.use SNAP to get bandsel12348 and quality scece and cloud. resample to 60m【done】
+2.use Matlab to get 60m resolution Chla.
+tax and money 
