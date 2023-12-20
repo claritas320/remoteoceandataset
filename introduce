@@ -165,3 +165,11 @@ need to use batch process and get chla.
 1.use SNAP to get bandsel12348 and quality scece and cloud. resample to 60m【done】
 2.use Matlab to get 60m resolution Chla.
 tax and money 
+---------------------------------------12.20---------------------------------------------------
+waste all day yesterday.
+I use matlab to batch read all the chla Cya Turb Lat lon data,
+and then need to write a mosaic code.
+ok done a mosaic code.
+next use m_map to draw a m_map pic.
+use this step:https://blog.csdn.net/weixin_39509073/article/details/113247019?ops_request_misc=&request_id=&biz_id=102&utm_term=m_map&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-1-113247019.142^v96^pc_search_result_base4&spm=1018.2226.3001.4187
+【next step】no good chl-a pic now.
