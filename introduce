@@ -181,3 +181,16 @@ how can I get good chla pic.
 IT‘S WORKING！
 JUST m_pcolor(lon,lat,Chl_a) is working...
 so simple ...
+I now finish mosaic automatically. solve the problem when 2 pics overlap then disappear one. just because overlap places I use the average value and one of them is nan. so the results are nan too. disappear .
+now is 0.0006 degree resolution Chl_a.
+I need to write a step-by-step tutorial.
+
+1.upload M2.kml as ROI, download data inside ROI. get S2 L1C data.
+2. use sen2cor code transfer L1C to L2A
+3. bandselect 12348 and quality scene + quality cloud, and resample to 60m, and saves .nc files. This step uses SNAP and its batch function(E:\sentinel2023\bandsel12348\myGraphbandsel12348sclResample). use product factory can batch import data to SNAP.
+4. use mainFun_getChla.m to get corresponding lat/lon/Chla/Cya/Turb. all into one mat file.
+5.put the 4+6 (gap 3 days) = 10 mats into one folder.
+6.use mosaic_chl.m(the lat/lon/chla range  is manually defined), input the folder address to get and save the whole chla pic and mat(10 pics mosaic). save to the folder. The mat have lat, lon, whole_chla data. 3 columns.
+7.done.
+
+【next step】save a mosaic_chl_only.m and modify to save Cya/Turb too. all in one code.
