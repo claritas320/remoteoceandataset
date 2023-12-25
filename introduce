@@ -194,3 +194,5 @@ I need to write a step-by-step tutorial.
 7.done.
 
 【next step】save a mosaic_chl_only.m and modify to save Cya/Turb too. all in one code.
+I can see the POC 4/9 km data: https://oceancolor.gsfc.nasa.gov/resources/atbd/sst/#sec_6 6-Data Access.
+download the 4/9km Chl_a and Turb data.(E:\sentinel2023\MODIS_chla_daily\下载地址.txt)
