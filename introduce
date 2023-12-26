@@ -197,6 +197,9 @@ I need to write a step-by-step tutorial.
 I can see the POC 4/9 km data: https://oceancolor.gsfc.nasa.gov/resources/atbd/sst/#sec_6 6-Data Access.
 download the 4/9km Chl_a and Turb data.(E:\sentinel2023\MODIS_chla_daily\下载地址.txt)
 current model ECCO(Estimating the Circulation and Climate of the Ocean):https://ecco-group.org/
+
+---------------------------------------12.26---------------------------------------------------
 法国海洋卫星数据归档标定中心AVSIO(Archiving Validation and Interpretation of Satellite Data in Oceanography) 发布的卫星高度计:https://las.aviso.altimetry.fr/
 oceancolor（SST and chla）:https://oceancolor.gsfc.nasa.gov/
 中尺度涡科普：https://xuchi.name/mesoscale-eddies/
+【nextstep】still need to modify mosaic_chl.m read allover and then get results.
