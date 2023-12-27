@@ -203,3 +203,5 @@ current model ECCO(Estimating the Circulation and Climate of the Ocean):https://
 oceancolor（SST and chla）:https://oceancolor.gsfc.nasa.gov/
 中尺度涡科普：https://xuchi.name/mesoscale-eddies/
 【nextstep】still need to modify mosaic_chl.m read allover and then get results.
+---------------------------------------12.27---------------------------------------------------
+GEE NDVI gap filling:https://blog.csdn.net/guaicaicexu/article/details/126863304
