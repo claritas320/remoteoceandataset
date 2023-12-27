@@ -145,7 +145,8 @@ ok i first draw images is fine.
 get the chla result of a single color.hrmmm I try a lake image and see if there's any differences.
 ``put sen2cor code here: 
 cd C:\Users\10437\AppData\Local\Sen2Cor-02.11.00-win64
-L2A_Process E:\sentinel2023\nearcoastTEST\S2A_MSIL1C_20231214T024111_N0510_R089_T51SVD_20231214T042600.SAFE
+for /D %s in (E:\sentinel2023\process\S2A_MSIL1C*) do L2A_process %s
+
 ``python code to batch process s2 images to geotiff:https://blog.csdn.net/KilllerQueen/article/details/114637970
 ``matlab code s2 bands calculate NDVI:https://blog.csdn.net/Pyyyson/article/details/130338038?spm=1001.2101.3001.6650.9&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-9-130338038-blog-116410491.235%5Ev39%5Epc_relevant_default_base&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-9-130338038-blog-116410491.235%5Ev39%5Epc_relevant_default_base&utm_relevant_index=10
 ``m_map install and use:https://blog.csdn.net/weixin_39509073/article/details/113247019?ops_request_misc=&request_id=&biz_id=102&utm_term=m_map&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-1-113247019.142^v96^pc_search_result_base4&spm=1018.2226.3001.4187
@@ -205,3 +206,6 @@ oceancolor（SST and chla）:https://oceancolor.gsfc.nasa.gov/
 【nextstep】still need to modify mosaic_chl.m read allover and then get results.
 ---------------------------------------12.27---------------------------------------------------
 GEE NDVI gap filling:https://blog.csdn.net/guaicaicexu/article/details/126863304
+I draw data distribution and latlon pics and get whole area chla/cya/turb.
+【next step】process more data and compare with the MODIS data.
+
