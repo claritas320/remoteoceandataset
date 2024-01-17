@@ -210,7 +210,11 @@ I draw data distribution and latlon pics and get whole area chla/cya/turb.
 【next step】process more data and compare with the MODIS data.
 ---------------------------------------12.28---------------------------------------------------
 done with all the S1AL1C files. today other S1BL1C  files.done with all the files.
+
 ---------------------------------------12.29---------------------------------------------------
 to the next year, use SNAP to bandselect 12348 and scl.
----------------------------------------12.08-------------------------------------
+
+---------------------------------------24.01.17---------------------------------------------------
+still can't reinstall SNAP again. always tell me to restart PC.
+try read this: GEE special:https://mp.weixin.qq.com/s/o7iuqtTQkt8IxrxXlDM5cw
 read papers while use SNAP to bandselect 12348 and scl and get .nc files.
