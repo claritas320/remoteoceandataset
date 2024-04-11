@@ -226,3 +226,4 @@ try to use GEE now. The contents above may not be that useful now? I don't know.
 ---------------------------------------24.04.09----------------------------------------------
 can use GEE to get all the images within my regions now. make a function and a main. then use main to get the function. try to finish the sen2cor process on GEE. It seems it has some plugins of GEE like s2sen2cor?
 i searched the developer forum and get https://github.com/MarcYin/SIAC_GEE. try to find out it tomorrow.
+this link shows me that I can have a UI page on GEE. I guess that is what the GEE tool means.pick up different layers.
